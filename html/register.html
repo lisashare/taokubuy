@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>用户注册</title>
+		<link rel="stylesheet" type="text/css" href="../css/register.css"/>
+		<script type="text/javascript" src="../js/jquery-1.11.3.js" ></script>
+		<script type="text/javascript" src="../js/require.js" defer async="true" data-main="../js/register"></script>
+	</head>
+	<body>
+		<div class="header-wrap">
+			<div class="public-head-layout wrapper">
+				<h1 class="site-logo">
+					<a href="../index.html" title="淘库商城">
+						<img src="../images/register/05664089558052123.png"/>
+					</a>
+				</h1>
+			<div class="nc-login-now">
+				我已经注册，现在就<a class="register" href="login.html" title="登录">登录</a>
+			</div>
+			</div>
+		</div>
+		<!--注册主要信息-->
+		<div class="nc-register-bg">
+			<div class="nc-register-box">
+				<div class="nc-register-layout">
+					<div class="left">
+						<div class="nc-register-mode">
+							<ul class="tabs-nav">
+                    
+								<li><a href="#" class="tab_active">账号注册</a></li>
+								<li><a href="#">手机注册</a></li>
+							</ul>
+							<div id="tabs_container" class="tabs-container transition">
+							<div id="default" class="tabs_containe">
+								<form action="" method="post" id="register_form" class="nc-login-form">
+									<dl>
+										<dt>用户名：</dt>
+										<dd><input type="text" id="user_name" placeholder="请使用3-15个中、英文、数字及“_”符号" class="text"/>
+										<label for="user_name" class="error"><!--<i class="icon-exclamation-sign">::before</i>-->
+										用户名必须在3-15个字符之间</label>
+										
+										</dd>
+									</dl>
+									<dl>
+										<dt>设置密码：</dt>
+										<dd><input type="password" id="password" placeholder="6-20个大小写英文字符、符号或数字" class="text"/>
+										<label for="password" class="error"><!--<i class="icon-exclamation-sign">::before</i>-->
+										密码长度应在6-20个字符之间</label></dd>
+									</dl>
+									<dl>
+										<dt>确认密码：</dt>
+										<dd><input type="password" id="password_confirm" placeholder="请再次输入密码" class="text"/>
+										<label for="password_confirm" class="error"><!--<i class="icon-exclamation-sign">::before</i>-->
+										两次输入的密码不一致</label></dd>
+									</dl>
+									<dl>
+										<dt>邮箱：</dt>
+										<dd><input type="text" id="email" placeholder="输入常用邮箱作为验证及找回密码使用" class="text"/>
+										<label for="email" class="error"><!--<i class="icon-exclamation-sign">::before</i>-->
+										这不是一个有效的电子邮箱</label>
+										</dd>
+									</dl>
+	<dl>
+										<dt>验证码:</dt>
+										<dd><input type="text" id="captcha" placeholder="输入验证码1234" class="text"/>
+										<label for="captcha" class="error"><!--<i class="icon-exclamation-sign" title="验证码不正确">::before</i>-->
+										</label>
+										</dd>
+									</dl>		
+								<dl class="clause-div">
+										<dd><input type="checkbox" id="clause" class="checkbox" checked="checked"/>阅读并同意<a href="#" target="_blank" class="agreemengt">《服务协议》</a></dd>
+									</dl>
+									<div class="submit-div">
+										<input type="button" id="Submit" class="submit" value="立即注册" />							</div>
+								</form>
+							</div>	
+							</div>
+							
+							
+							
+						</div>
+					</div>
+					<div class="right">
+						<div class="api-login">
+							<h4>使用合作网站账号直接登录</h4>
+						<a href="#" class="qq"></a>
+						<a href="#" class="wx"></a>
+						
+						</div>
+						<div class="register-after"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+			
+		<!--首页底部注册备案信息-->
+	<div id="footer">
+		<p>
+			<a target="_blank" href="#">首页</a>
+			|
+			<a target="_blank" href="#">关于我们</a>
+			|
+			<a target="_blank" href="#">商城公告</a>
+			|
+			<a target="_blank" href="#">客服中心</a>
+			|
+			<a target="_blank" href="#">帮助中心</a>
+			|
+			<a target="_blank" href="#">售后服务</a>
+			|
+			<a target="_blank" href="#">支付方式</a>
+			|
+			<a target="_blank" href="#">友情链接</a>
+			|
+		<a target="_blank" href="#">物流加盟</a>
+			|
+			<a target="_blank" href="#">招商入驻</a>
+			|
+			<a target="_blank" href="#">技术支持</a>
+		</p>
+		Copyright &copy; 2012 - 2017 Taokubuy.com | 淘库商城股份有限公司 保留版权及所有权利<br />
+闽公网安备 35020302028562号 | 闽ICP备17020735号
+	</div>
+	</body>
+</html>

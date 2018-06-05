@@ -1,0 +1,208 @@
+@charset "UTF-8";
+/*重置样式*/
+html, body, ul, ol, li, dl, dt, dd, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, figure,
+img, input {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: "微软雅黑"; }
+
+ul, ol, li {
+  list-style: none; }
+
+a, u {
+  text-decoration: none; }
+
+i, em {
+  font-style: normal; }
+
+b, strong {
+  font-weight: 100; }
+
+img {
+  border: 0;
+  display: block; }
+
+input {
+  outline: none; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 16px;
+  font-weight: 100; }
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  overflow: hidden;
+  clear: both;
+  height: 0;
+  visibility: hidden; }
+
+/*重置样式结束*/
+.wrapper {
+  width: 1200px;
+  margin: 0 auto; }
+
+#footer {
+  width: 100%;
+  margin: 0 auto;
+  padding-bottom: 10px;
+  background: #f5f5f5;
+  font-size: 12px !important;
+  border-top: 1px solid #e7e7e7;
+  text-align: center;
+  color: #666; }
+  #footer p {
+    word-spacing: 5px;
+    padding: 10px 0; }
+    #footer p a {
+      color: #666; }
+
+body {
+  background: #fafafa; }
+
+.header-wrap {
+  width: 99%;
+  height: 80px;
+  border-bottom: 2px solid #F5F5F5;
+  margin: 5px auto 0 auto;
+  background: #fff; }
+  .header-wrap .wrapper {
+    width: 1000px;
+    margin: auto; }
+
+.public-head-layout {
+  height: 80px; }
+  .public-head-layout .site-logo {
+    width: 240px;
+    height: 60px;
+    float: left;
+    margin: 10px 0 0 0; }
+    .public-head-layout .site-logo img {
+      width: 240px;
+      height: 60px; }
+
+.nc-regist-now {
+  line-height: 20px;
+  font-size: 14px;
+  color: #aaa;
+  float: right;
+  margin-top: 30px;
+  height: 40px; }
+  .nc-regist-now span {
+    display: inline-block; }
+  .nc-regist-now .avatar {
+    vertical-align: top;
+    width: 40px;
+    height: 40px;
+    margin-right: 6px;
+    border-radius: 100%; }
+    .nc-regist-now .avatar img {
+      border-radius: 100%;
+      width: 40px;
+      height: 40px; }
+  .nc-regist-now a {
+    color: #06c;
+    margin-left: 4px;
+    font-weight: 600; }
+
+.login-layout {
+  width: 1000px;
+  margin: 20px auto; }
+  .login-layout .left-pic {
+    width: 450px;
+    height: 350px;
+    float: left;
+    margin: 20px auto; }
+    .login-layout .left-pic img {
+      width: 450px;
+      height: 350px; }
+
+.login-style {
+  width: 440px;
+  float: right;
+  background: #fff;
+  padding: 19px 19px 29px 19px;
+  border: 1px solid #E6E6E6;
+  border-radius: 5px; }
+
+.tabs-nav {
+  border-bottom: 1px solid #E6E6E6; }
+  .tabs-nav li {
+    width: 216px;
+    height: 40px;
+    display: inline-block;
+    text-align: center;
+    margin-bottom: -1px; }
+    .tabs-nav li a.tab_active {
+      color: #c81623;
+      display: block;
+      border-bottom: 3px solid #C81623; }
+    .tabs-nav li a {
+      font-size: 18px;
+      line-height: 24px;
+      display: block;
+      padding-bottom: 13px;
+      color: #999; }
+
+.login-contain {
+  padding: 30px 40px 20px 40px;
+  height: 270px; }
+
+#login_form dl {
+  height: 52px;
+  margin-top: -1px;
+  border: 1px solid #E6E6E6; }
+  #login_form dl dt {
+    width: 72px;
+    float: left;
+    color: #666;
+    line-height: 20px;
+    font-size: 14px;
+    padding: 16px 0 16px 20px; }
+  #login_form dl dd {
+    height: 28px;
+    flex: left;
+    padding: 12px 0; }
+    #login_form dl dd input {
+      width: 240px;
+      line-height: 28px;
+      font-size: 14px;
+      border: none 0; }
+#login_form .code {
+  margin-top: 15px; }
+
+.login {
+  width: 348px;
+  height: 42px;
+  background: #c81623;
+  border-radius: 3px;
+  cursor: pointer;
+  color: #fff;
+  border: 1px solid #D91E17;
+  font-weight: 600;
+  font-size: 16px;
+  margin-top: 15px; }
+
+.free-day {
+  width: 348px;
+  margin-top: 15px;
+  line-height: 20px;
+  font-size: 12px; }
+  .free-day .ck {
+    display: block;
+    float: left;
+    color: #999; }
+    .free-day .ck input {
+      margin-right: 4px;
+      display: inline-block;
+      vertical-align: middle; }
+    .free-day .ck em {
+      color: #ff3238;
+      margin-left: 6px; }
+  .free-day .forget_pwd {
+    display: block;
+    float: right; }
+
+/*# sourceMappingURL=login.css.map */

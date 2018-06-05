@@ -1,0 +1,235 @@
+@charset "UTF-8";
+.wrapper {
+  width: 1200px;
+  margin: 0 auto; }
+
+#footer {
+  width: 100%;
+  margin: 0 auto;
+  padding-bottom: 10px;
+  background: #f5f5f5;
+  font-size: 12px !important;
+  border-top: 1px solid #e7e7e7;
+  text-align: center;
+  color: #666; }
+  #footer p {
+    word-spacing: 5px;
+    padding: 10px 0; }
+    #footer p a {
+      color: #666; }
+
+/*重置样式*/
+html, body, ul, ol, li, dl, dt, dd, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, figure,
+img, input {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: "微软雅黑"; }
+
+ul, ol, li {
+  list-style: none; }
+
+a, u {
+  text-decoration: none; }
+
+i, em {
+  font-style: normal; }
+
+b, strong {
+  font-weight: 100; }
+
+img {
+  border: 0;
+  display: block; }
+
+input {
+  outline: none; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 16px;
+  font-weight: 100; }
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  overflow: hidden;
+  clear: both;
+  height: 0;
+  visibility: hidden; }
+
+/*重置样式结束*/
+.goods-detail {
+  width: 1200px;
+  margin: 20px auto;
+  min-height: 460px;
+  border: 1px solid #E6E6E6;
+  margin-bottom: 20px;
+  position: relative;
+  z-index: 2; }
+  .goods-detail .goods-detail-picture {
+    width: 360px;
+    height: 360px;
+    float: left;
+    position: absolute;
+    z-index: 4;
+    left: 0;
+    top: 0; }
+  .goods-detail .goods-detail-summary {
+    width: 620px;
+    min-height: 460px;
+    float: left;
+    border-left: 1px solid #eee;
+    border-right: 1px solid #eee;
+    position: absolute;
+    margin-left: 368px; }
+
+.gallery_wrap {
+  position: relative;
+  width: 360px;
+  height: 360px; }
+  .gallery_wrap .gallery {
+    width: 330px;
+    min-height: 320px;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    overflow: hidden; }
+    .gallery_wrap .gallery img {
+      width: 320px;
+      height: 320px;
+      position: absolute;
+      top: 0;
+      left: 0; }
+
+.magnify-glass {
+  display: none;
+  position: absolute;
+  left: 368px;
+  top: 0;
+  border: 1px solid #eee;
+  background: #fff;
+  overflow: hidden;
+  width: 400px;
+  height: 400px;
+  box-shadow: 0px 1px 13px -1px #ccc; }
+  .magnify-glass img {
+    width: 700px;
+    height: 700px;
+    position: absolute; }
+
+.controller_wrap {
+  height: 52px;
+  width: 320px;
+  position: absolute;
+  left: 20px;
+  top: 350px;
+  bottom: -42px; }
+
+.active {
+  box-shadow: 0px 1px 13px -1px #ccc; }
+
+.controller {
+  width: 320px;
+  height: 52px;
+  position: relative;
+  z-index: 10; }
+  .controller ul {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0; }
+    .controller ul li {
+      overflow: hidden;
+      display: inline-block;
+      vertical-align: middle;
+      border: 1px solid transparent;
+      margin-right: 5px; }
+      .controller ul li img {
+        max-width: 48px;
+        max-height: 48px;
+        border: 1px solid #eee;
+        overflow: hidden;
+        vertical-align: middle;
+        padding: 1px; }
+    .controller ul .current {
+      border-color: #c81623; }
+    .controller ul .current img {
+      border-color: #c81623; }
+
+.mask {
+  width: 170px;
+  height: 170px;
+  background: rgba(255, 255, 255, 0.3);
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+  z-index: 2;
+  cursor: crosshair; }
+
+.layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 320px;
+  height: 320px;
+  z-index: 10;
+  opacity: 0; }
+
+.goods-detail-summary {
+  background: #E5DEBC;
+  box-shadow: inset 4px 0 1px rgba(153, 153, 153, 0.15); }
+
+.zj-goods-name {
+  padding: 15px 20px;
+  height: 40px;
+  line-height: 40px; }
+  .zj-goods-name h2 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #333; }
+
+.zj-goods-style dl {
+  margin-bottom: 15px;
+  padding: 6px 10px; }
+  .zj-goods-style dl dt {
+    font-size: 16px;
+    color: #000;
+    display: inline-block;
+    padding: 0 10px;
+    line-height: 22px;
+    text-align: right; }
+  .zj-goods-style dl dd {
+    display: inline-block; }
+    .zj-goods-style dl dd span {
+      font-size: 14px;
+      color: #666;
+      display: inline-block;
+      padding: 8px;
+      cursor: pointer;
+      border: 1px solid #999;
+      background: #F0F0F0;
+      margin: 0 3px; }
+
+.zj-goods-price {
+  padding: 10px 20px 10px; }
+  .zj-goods-price font {
+    color: #D91E17;
+    font-size: 22px;
+    margin-left: 10px; }
+  .zj-goods-price button {
+    margin: 15px;
+    width: 320px;
+    line-height: 50px;
+    background: #f60;
+    color: #fff;
+    font-size: 20px;
+    border: none 0;
+    border-radius: 5px; }
+
+.zj-goods-style span.on {
+  border: 2px solid #f60;
+  padding: 7px; }
+
+/*# sourceMappingURL=magnify.css.map */

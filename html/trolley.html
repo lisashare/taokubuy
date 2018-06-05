@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>购物车</title>
+		<link rel="stylesheet" type="text/css" href="../css/trolley.css"/>
+		<script type="text/javascript" src="../js/require.js" defer async="true" data-main="../js/trolley"></script>
+	</head>
+	<body>
+		<!--最外层-->
+		<div id="shopping" class="wrapper">
+			
+			<div class="buy-main wrapper">
+				<!--标题-->
+				<div class="buy-title">
+					<h3>我的购物车</h3>
+					<h5>查看购物车商品清单，增加减少商品数量，并勾选想要的商品进入下一步操作。</h5>
+				</div>
+				<!--购物车列表-->
+				<div id="c_menu" class="cart-style">
+					<div class="c_title">
+						<div class="w50"><input type="checkbox" id="seclectAll"/> 								全选
+						</div>
+						<div class="w60">缩略图</div>
+						<div class="w300">商品</div>
+						<div class="w60">规格</div>
+						<div class="w120">单价(元)</div>
+						<div class="w120">数量</div>
+						<div class="w120">小计(元)</div>
+						<div class="w120">操作</div>
+					</div>
+					<div class="shop-explain">
+						<strong>
+							店铺：
+							<a href="../index.html">淘库优选自营旗舰店</a>
+						</strong>
+						<div class="store-sale"><i></i><em>免运费</em>满99免运费</div>
+					</div>
+					
+					<div class="shop-list">
+					<!--没有商品-->
+						<div class="null-shopping" >
+							<h4>您的购物车还没有商品</h4>
+							<p><a href="shopping.html" class="btn-mini">马上去购物</a>
+							<a href="#" class="btn-mini">查看自己的订单</a>
+							</p>
+						</div>
+						<div class="item_list">
+							<!--<ul class="goodInfo" data-good-id="">
+								<li class="w50">
+									<input type="checkbox" name="" id="" value="" />
+								</li>
+								<li class="w60">
+									<a href="1"><img src="" alt="" /></a>
+								</li>
+								<li class="w300">商品详情</li>
+								<li class="w60">规格</li>
+								<li class="w120"><em id="item_price">2</em></li>
+								<li class="w120">
+									<a href="" class="substract-key">-</a><input type="text" class="text" value=""/><a href="" class="substract-key">+</a>
+								</li>
+								<li class="w120 item_subtotal">
+							2
+								</li>
+								<li class="w120 ">
+									<a href="javascript:;" class="collect">收藏</a><br />
+									<a href="javascript:;" class="del">删除</a>
+								</li>
+							</ul>-->
+						</div>
+					</div>	
+				
+				<div class="all-account">
+					商品总价(不含运费)
+					<em id="cartTotal">0</em>元
+				</div>
+						
+			</div>
+		</div>
+	</body>
+</html>

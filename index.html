@@ -1,0 +1,1556 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>淘库商城(Taokubuy.com)-正品优选、全球采购、送货到家、简单生活!</title>
+		<link rel="stylesheet" href="css/index.css" />
+		<script type="text/javascript" src="js/require.js" defer async="true" data-main="js/main"></script>
+	</head>
+	<body>
+<!--头部欢迎栏-->
+		<div class="public-top-layout .w">
+<!--左侧欢迎，注册，登录-->
+			<div class="topbar wrapper">
+				<div class="user-entry">
+					<!--Hi,欢迎来
+					<a href="#" title="首页" alt="首页">淘库商城</a>
+					<a href="html/login.html" id="login">请登录</a>
+					<span><a href="html/register.html" id="register">免费注册</a></span>
+					<span class="other" style="display: none;">
+						<a href="#"></a>
+						<a href="#"></a>
+					</span>-->
+					<!--您好!<span>
+					<a href="#">duoduo123</a>
+					</span>
+					欢迎回来，<a href="#">淘库商城</a>
+					<span><a href="html/login.html">[退出]</a></span>-->
+				</div>
+<!--右侧，导航-->
+				<div class="quick-menu">
+					<dl class='invit'>
+						<dt></dt>
+						<dd></dd>
+					</dl>
+					<dl>
+						<dt>
+							<em class="ico_shop"></em>
+							<a href="#" title="淘库首页">淘库首页</a>
+							<i></i>
+						</dt>
+						<dd>
+							<ul>
+								<li><a href="#" title="商家入驻">商家入驻</a></li>
+								<li><a href="#" title="商家注册">商家注册</a></li>
+								<li><a href="#" title="登录商家管理中心">商家登录</a></li>
+							</ul>
+						</dd>
+					</dl>
+					<dl>
+						<dt>
+							<em class="ico_order"></em>
+							<a href="#" title="我的订单">我的订单</a>
+							<i></i>
+						</dt>
+						<dd>
+							<ul>
+								<li><a href="#" title="待付款订单">待付款订单</a></li>
+								<li><a href="#" title="待确认收货">待确认收货</a></li>
+								<li><a href="#" title="待评价交易">待评价交易</a></li>
+							</ul>
+						</dd>
+					</dl>
+					<dl>
+						<dt>
+							<em class="ico_store"></em>
+							<a href="#" title="我的收藏">我的收藏</a>
+							<i></i>
+						</dt>
+						<dd>
+							<ul>
+								<li><a href="#" title="商品收藏">商品收藏</a></li>
+								<li><a href="#" title="店铺收藏">店铺收藏</a></li>
+							</ul>
+						</dd>
+					</dl>
+					<dl>
+						<dt>
+							<em class="ico_service"></em>
+							<a href="#" title="客户服务">客户服务</a>
+							<i></i>
+						</dt>
+						<dd>
+							<ul>
+								<li><a href="#" title="帮助中心">帮助中心</a></li>
+								<li><a href="#" title="售后服务">售后服务</a></li>
+								<li><a href="#" title="客服中心">客服中心</a></li>
+							</ul>
+						</dd>
+					</dl>
+					<dl>
+						<dt>
+							<em class="ico_order"></em>
+							<a href="#" title="站点导航">站点导航</a>
+							<i></i>
+						</dt>
+						<dd>
+							<ul>
+								<li><a href="#" title="关于我们">关于我们</a></li>
+								<li><a href="#" title="联系我们">联系我们</a></li>
+								<li><a href="#" title="社会招聘">社会招聘</a></li>
+							</ul>
+						</dd>
+					</dl>
+					<dl class="down-app">
+						<dt>
+							<em class="ico_tel"></em>
+							<a href="#" title="手机移动端">手机移动端</a>
+							<i></i>
+						</dt>
+						<dd>
+							<div class="qrcode"><img src="images/mb_app.png" alt="" /></div>
+							<div class="hint">
+								<h4>扫描二维码</h4>
+								下载手机客户端
+							</div>
+							<div class="addur1">
+								<a href="#" target="_blank"><i class="icon-android"></i>Android</a>
+								<a href="#" target="_blank"><i class="icon-apple"></i>iPhone</a>
+							</div>
+						</dd>
+					</dl>
+					<dl class="wechat">
+						<dt>
+							关注我们
+							<i></i>
+						</dt>
+						<dd>
+							<h4>扫描二维码
+								<br />
+								关注商城微信号
+							</h4>
+							<img src="images/05573365386758555.jpg" alt="微信公众号" />
+						</dd>
+					</dl>
+				</div>
+			<!--右侧导航结束-->
+			</div>
+		</div>
+<!--header logo 搜索区域-->
+		<div id="header"> <!--class="sticky"-->
+			<div class="public-head-layout wrapper  clearfix">
+				<h1 class="site-logo"><a href="#" alt="logo"><img class="pngFix" src="images/05664089558052123.png" alt="" /></a></h1>
+				<div class="site-ad"></div>
+				<div class="head-search-bar">
+					<div id="search">
+						<ul class="tab">
+							<li class="current" act="search">
+								<span>商品</span>
+								<i class=""></i>
+							</li>
+							<!--<li act="store_list" style="display: none;">
+								<span>店铺</span>
+							</li>-->
+						</ul>
+					</div>
+<!--搜索keyword-->
+					<form class="search-form" action="" method="get">
+						<!--<input id="search_act" value="search" name="act" type="hidden" />-->
+						<input type="text" class="input-text" id="keyword" placeholder="请输入您要搜索的商品关键字"/>
+						<input type="button" id="button" class="input-submit" value="搜索"/>
+						<div id="box"></div>
+					</form>
+					<!--搜索关键字-->
+					<div class="keyword">
+						<span>热门搜索：</span>
+						<ul class="clearfix">
+							<li><a href="#">可口可乐</a></li>
+							<li><a href="#">百世</a></li>
+							<li><a href="#">农夫山泉</a></li>
+							<li><a href="#">百威啤酒</a></li>
+							<li><a href="#">白山水</a></li>
+							<li><a href="#">德芙</a></li>
+							<li><a href="#">维达</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="head-user-menu  clearfix">
+					<dl class="my-mall ">
+						<dt>
+							<span class="ico"></span>
+							我的商城
+							<i class=""></i>
+						</dt>
+						<dd></dd>
+					</dl>
+					<dl class="my-cart">
+						<dt>
+							<span class="ico"></span>
+							购物车结算
+							<i class=""></i>
+						</dt>
+						<dd></dd>
+					</dl>
+				</div>
+			</div>
+		</div>
+<!--导航二级菜单-->
+		<div id="public-nav-layout">
+			<div class="wrapper">
+				<div class="all-category">
+					<div class="title">
+						<i></i>
+						<h3><a href="#">所有分类</a></h3>
+					</div>
+					<div class="category">
+						<ul class="menu">
+							<li class="hover">
+								<div class="class">
+									<span class="ico">
+										<img src="images/category-pic-888.jpg"/>
+									</span>
+									<h4><a href="#">家用电器</a></h4>
+									<span class="arrow">
+									</span>
+								</div>
+								<div class="sub-class">
+								<div class="sub-class-content">
+								<div class="recommend-class">
+									<span><a href="#">冰箱</a></span>
+									<span><a href="#">电视</a></span>
+									<span><a href="#">空调</a></span>
+								</div>
+								<dl>
+									<dt>
+										<h3>
+											<a href="#">家用电器</a>
+										</h3>
+									</dt>
+									<dd class="goods-class">
+										<a href="#">冰箱</a>
+										<a href="#">电热毯</a>
+										<a href="#">电熨斗</a>
+										<a href="#">除湿机</a>
+										<a href="#">取暖器</a>
+										<a href="#">除湿器</a>
+										<a href="#">电视</a>
+										<a href="#">空调</a>
+										<a href="#">洗衣机</a>
+										<a href="#">热水器</a>
+										
+									</dd>
+								</dl>
+								<dl>
+									<dt>
+										<h3>
+											<a href="#">家用电器</a>
+										</h3>
+									</dt>
+									<dd class="goods-class">
+										<a href="#">冰箱</a>
+										<a href="#">电热毯</a>
+										<a href="#">电熨斗</a>
+										<a href="#">除湿机</a>
+										<a href="#">取暖器</a>
+										<a href="#">除湿器</a>
+										<a href="#">电视</a>
+										<a href="#">空调</a>
+										<a href="#">洗衣机</a>
+										<a href="#">热水器</a>
+										
+									</dd>
+								</dl><dl>
+									<dt>
+										<h3>
+											<a href="#">家用电器</a>
+										</h3>
+									</dt>
+									<dd class="goods-class">
+										<a href="#">冰箱</a>
+										<a href="#">电热毯</a>
+										<a href="#">电熨斗</a>
+										<a href="#">除湿机</a>
+										<a href="#">取暖器</a>
+										<a href="#">除湿器</a>
+										<a href="#">电视</a>
+										<a href="#">空调</a>
+										<a href="#">洗衣机</a>
+										<a href="#">热水器</a>
+										
+									</dd>
+								</dl><dl>
+									<dt>
+										<h3>
+											<a href="#">家用电器</a>
+										</h3>
+									</dt>
+									<dd class="goods-class">
+										<a href="#">冰箱</a>
+										<a href="#">电热毯</a>
+										<a href="#">电熨斗</a>
+										<a href="#">除湿机</a>
+										<a href="#">取暖器</a>
+										<a href="#">除湿器</a>
+										<a href="#">电视</a>
+										<a href="#">空调</a>
+										<a href="#">洗衣机</a>
+										<a href="#">热水器</a>
+										
+									</dd>
+								</dl><dl>
+									<dt>
+										<h3>
+											<a href="#">家用电器</a>
+										</h3>
+									</dt>
+									<dd class="goods-class">
+										<a href="#">冰箱</a>
+										<a href="#">电热毯</a>
+										<a href="#">电熨斗</a>
+										<a href="#">除湿机</a>
+										<a href="#">取暖器</a>
+										<a href="#">除湿器</a>
+										<a href="#">电视</a>
+										<a href="#">空调</a>
+										<a href="#">洗衣机</a>
+										<a href="#">热水器</a>
+										
+									</dd>
+								</dl><dl>
+									<dt>
+										<h3>
+											<a href="#">家用电器</a>
+										</h3>
+									</dt>
+									<dd class="goods-class">
+										<a href="#">冰箱</a>
+										<a href="#">电热毯</a>
+										<a href="#">电熨斗</a>
+										<a href="#">除湿机</a>
+										<a href="#">取暖器</a>
+										<a href="#">除湿器</a>
+										<a href="#">电视</a>
+										<a href="#">空调</a>
+										<a href="#">洗衣机</a>
+										<a href="#">热水器</a>
+										
+									</dd>
+								</dl>
+								</div>
+								
+								<div class="sub-class-right">
+									<div class="brands-list">
+										<ul>
+											<li><a href="#">海信</a></li>
+										</ul>
+									</div>
+									
+									
+								</div>
+								</div>
+								
+							</li>
+							<li class="hover">
+								<div class="class">
+									<span class="ico">
+										<img src="images/category-pic-888.jpg"/>
+									</span>
+									<h4><a href="#">家用电器</a></h4>
+									<span class="arrow">
+									</span>
+								</div>
+							</li>
+							<li class="hover">
+								<div class="class">
+									<span class="ico">
+										<img src="images/category-pic-888.jpg"/>
+									</span>
+									<h4><a href="#">家用电器</a></h4>
+									<span class="arrow">
+									</span>
+								</div>
+							</li>
+							<li class="hover">
+								<div class="class">
+									<span class="ico">
+										<img src="images/category-pic-888.jpg"/>
+									</span>
+									<h4><a href="#">家用电器</a></h4>
+									<span class="arrow">
+									</span>
+								</div>
+							</li>
+							<li class="hover">
+								<div class="class">
+									<span class="ico">
+										<img src="images/category-pic-888.jpg"/>
+									</span>
+									<h4><a href="#">家用电器</a></h4>
+									<span class="arrow">
+									</span>
+								</div>
+							</li>
+							<li class="hover">
+								<div class="class">
+									<span class="ico">
+										<img src="images/category-pic-888.jpg"/>
+									</span>
+									<h4><a href="#">家用电器</a></h4>
+									<span class="arrow">
+									</span>
+								</div>
+							</li>
+							<li class="hover">
+								<div class="class">
+									<span class="ico">
+										<img src="images/category-pic-888.jpg"/>
+									</span>
+									<h4><a href="#">家用电器</a></h4>
+									<span class="arrow">
+									</span>
+								</div>
+							</li>
+							<li class="hover">
+								<div class="class">
+									<span class="ico">
+										<img src="images/category-pic-888.jpg"/>
+									</span>
+									<h4><a href="#">家用电器</a></h4>
+									<span class="arrow">
+									</span>
+								</div>
+							</li>
+							<li class="hover">
+								<div class="class">
+									<span class="ico">
+										<img src="images/category-pic-888.jpg"/>
+									</span>
+									<h4><a href="#">家用电器</a></h4>
+									<span class="arrow">
+									</span>
+								</div>
+							</li>
+							<li class="hover">
+								<div class="class">
+									<span class="ico">
+										<img src="images/category-pic-888.jpg"/>
+									</span>
+									<h4><a href="#">家用电器</a></h4>
+									<span class="arrow">
+									</span>
+								</div>
+							</li>
+							<li class="hover">
+								<div class="class">
+									<span class="ico">
+										<img src="images/category-pic-888.jpg"/>
+									</span>
+									<h4><a href="#">家用电器</a></h4>
+									<span class="arrow">
+									</span>
+								</div>
+							</li>
+							<li class="hover">
+								<div class="class">
+									<span class="ico">
+										<img src="images/category-pic-888.jpg"/>
+									</span>
+									<h4><a href="#">家用电器</a></h4>
+									<span class="arrow">
+									</span>
+								</div>
+							</li>
+							<li class="hover">
+								<div class="class">
+									<span class="ico">
+										<img src="images/category-pic-888.jpg"/>
+									</span>
+									<h4><a href="#">保健品/滋补品/礼品</a></h4>
+									<span class="arrow">
+									</span>
+								</div>
+							</li>
+							<li class="hover">
+								<div class="class">
+									<span class="ico">
+										<img src="images/category-pic-662.jpg"/>
+									</span>
+									<h4><a href="#">汽车/配件/车载电器</a></h4>
+									<span class="arrow">
+									</span>
+								</div>
+							</li>
+							<li class="hover">
+								<div class="class">
+									<span class="ico">
+										<img src="images/category-pic-1065.jpg"/>
+									</span>
+									<h4><a href="#">全球/跨境/国家馆</a></h4>
+									<span class="arrow">
+									</span>
+								</div>
+							</li>
+							<li class="hover">
+								<div class="class">
+									<span class="ico">
+										<img src="images/category-pic-1757.jpg"/>
+									</span>
+									<h4><a href="#">超市/便利店/生活服务</a></h4>
+									<span class="arrow">
+									</span>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<ul class="site-menu clearfix">
+					<li><a target="_blank" href="html/shopping.html">淘库优选</a></li>
+					<li><a target="_blank" href="html/shopping.html" >抢购</a></li>
+					<li><a target="_blank" href="html/shopping.html" >秒杀</a></li>
+					<li><a target="_blank" href="html/shopping.html" >代金券</a></li>
+					<li><a target="_blank" href="html/shopping.html" >活动</a></li>
+					<li><a target="_blank" href="html/shopping.html" >优选</a></li>
+					<li><a target="_blank" href="html/shopping.html" >智能</a></li>
+					<li><a target="_blank" href="html/shopping.html" >淘库超市</a></li>
+					<li><a target="_blank" href="html/shopping.html" >国际</a></li>
+					<li><a target="_blank" href="html/shopping.html" >淘库小店</a></li>
+				</ul>
+			</div>
+		</div>
+		<!--上面大轮播图-->
+		<div id="home-focus-layout">
+			<div class="full-slider">
+				<!--大图改变li的background-->
+				<ul id="fullScreenSliders" class="full-screen-sliders">
+					<li style="background:url('images/slider/web-101-101-1.jpg')"><a href="html/magnify.html" target="_blank" title="零食新风尚"></a></li>
+					<li style="background:url('images/slider/web-101-101-2.jpg')"><a href="html/magnify.html" target="_blank" title="淘库电器、美的品质盛典"></a></li>
+					<li style="background:url('images/slider/web-101-101-3.jpg')"><a href="html/magnify.html" target="_blank" title="淘库美妆，源于自然、用爱呵护"></a></li>
+				</ul>
+				<!--小圆点ul-->
+				<ul class="full-screen-slider-pagination">
+					<li class="current"><!--<a href="javascript:void(0)"></a>--></li>
+					<li><!--<a href="javascript:void(0)"></a>--></li>
+					<li><!--<a href="javascript:void(0)"></a>--></li>
+				</ul>
+				<!--左右按钮-->
+				<div class="banner-arrow">
+				<div class="arrow pre"></div>
+				<div class="arrow next"></div>
+			</div>
+			</div>
+			<div class="jfocus-trigeminybox">
+				<a href="" class="limited_time">
+					<div class="clock-wrap"></div>
+				</a>
+				<div class="jfocus-trigeminy">
+					<ul>
+						<li>
+							<a href="#" target="_blank" title="化妆品" style="opacity: 1;"><img src="images/web-101-102-3-1.jpg" alt="化妆品"/></a>
+							<a href="#" target="_blank" title="化妆品" style="opacity: 1;"><img src="images/web-101-102-3-2.jpg" alt="酒"/></a>
+							<a href="#" target="_blank" title="化妆品" style="opacity: 1;"><img src="images/web-101-102-3-3.jpg" alt="腕表"/></a>
+							<a href="#" target="_blank" title="化妆品" style="opacity: 1;"><img src="images/web-101-102-3-4.jpg" alt="家纺季"/></a>
+							<a href="#" target="_blank" title="化妆品" style="opacity: 1;"><img src="images/web-101-102-1-1.jpg" alt="化妆品"/></a>
+							<a href="#" target="_blank" title="化妆品" style="opacity: 1;"><img src="images/web-101-102-1-2.jpg" alt="酒"/></a>
+							<a href="#" target="_blank" title="化妆品" style="opacity: 1;"><img src="images/web-101-102-1-2.jpg" alt="酒"/></a>
+							<a href="#" target="_blank" title="化妆品" style="opacity: 1;"><img src="images/web-101-102-1-2.jpg" alt="酒"/></a>
+						</li>
+						
+					</ul>
+					<div class="pagination">
+						<div class="arrow pre"></div>
+						<div class="arrow next"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--选项卡-->
+		<div class="home-sale-layout  wrapper"  data-dd='疯狂抢购'>
+			<div class="left-layout">
+				<ul class="tabs-nav">
+					<li class="tabs-selected">
+						<i class="arrow"></i>
+						<h3>疯狂抢购</h3>
+					</li>
+					<li>
+						<i class="arrow"></i>
+						<h3>热卖商品</h3>
+					</li>
+					<li>
+						<i class="arrow"></i>
+						<h3>热评商品</h3>
+					</li>
+					<li>
+						<i class="arrow"></i>
+						<h3>新品上架</h3>
+					</li>
+					<li>
+						<i class="arrow"></i>
+						<h3>猜你喜欢</h3>
+					</li>
+				</ul>
+				<div class="tabs-panel sale-goods-list"><ul>
+					<!--<li>
+						<dl>
+							<dt class="goods-thumb"><a href="#"><img src="" alt="" /></a></dt>
+							<dd class="goods-name"><a href="#" title="百事可乐330ml 一件330ml*24听 上门自提 厦门市软件园二期望海路39号111室">百事可乐330ml 一件330ml*24听 上门自提 厦门市软件园二期望海路39号111室</a></dd>
+							<dd class="goods-price">商城价<em>￥40.50</em></dd>
+						</dl>
+					</li>-->
+				</ul>
+				</div>
+				<div class="tabs-panel sale-goods-list  tabs-hide"><ul>
+				</ul></div>
+				<div class="tabs-panel sale-goods-list tabs-hide"><ul>
+					
+				</ul></div>
+				<div class="tabs-panel sale-goods-list tabs-hide"><ul>
+					
+				</ul></div>
+				<div class="tabs-panel sale-goods-list tabs-hide"><ul>
+					
+				</ul></div>
+			</div>
+		</div>
+		<!--选项卡结束-->
+		<!--一层楼梯-->
+		<div class="home-standard-layout wrapper style-default">
+			<div class="left-slidebar">
+				<div class="title">
+					<div class="txt-type">
+						<span>1F</span>
+						<h2 title="家居日用管">家居日用馆</h2>
+					</div>
+				</div>
+				<div class="recommend-classes">
+					<ul>
+						<li><a href="#" title="_blank">床上用品</a></li>
+						<li><a href="#" title="_blank">居家布艺</a></li>
+						<li><a href="#" title="_blank">家居饰品</a></li>
+						<li><a href="#" title="_blank">居家礼品</a></li>
+						<li><a href="#" title="_blank">收纳清洁</a></li>
+						<li><a href="#" title="_blank">纸品清洁</a></li>
+					</ul>
+				</div>
+				<div class="left-ads">
+					<a href="#">
+						<img src="images/web-6-63.jpg" alt="" />
+					</a>
+				</div>
+			</div>
+			<div class="middle-layout">
+				<ul class="right-brand">
+					<li><a href="#">更多</a></li>
+				</ul>
+				<ul class="tabs-nav">
+					<li class="tabs-selected"><i class="arrow"></i><h3>商品推荐</h3></li>
+					
+				</ul>
+				<div class="right-side-layout">
+					<div class="right-side-focus">
+					<ul>
+						<li><a href="#"><img src="images/web-6-68-1.jpg"/></a></li>
+						<li><a href="#"><img src="images/web-6-68-2.jpg"/></a></li>
+						
+						<li><a href="#"><img src="images/web-6-68-3.jpg"/></a></li>
+						<li><a href="#"><img src="images/web-6-68-4.jpg"/></a></li>
+						<li><a href="#"><img src="images/web-6-68-5.png"/></a></li>
+						<li><a href="#"><img src="images/web-6-68-1.jpg"/></a></li>
+					</ul>
+					
+					<div class="pagination">
+						<span style="opacity: 0.8;"></span>
+						<span></span>
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+					<div class="arrow pre"></div>
+					<div class="arrow next"></div>
+				</div>
+				</div>
+				<div class="tabs-panel middle-banner-list">
+					<ul>
+						<li>
+							<dl><dd class="banner-thumb">
+								<a href="#"><img src="images/web-6-65-1-11.jpg"/></a>
+							</dd></dl>
+						</li>
+						<li>
+							<dl><dd class="banner-thumb">
+								<a href="#"><img src="images/web-6-65-1-12.jpg"/></a>
+							</dd></dl>
+						</li>
+						<li>
+							<dl><dd class="banner-thumb">
+								<a href="#"><img src="images/web-6-65-1-31.jpg"/></a>
+							</dd></dl>
+						</li>
+						<li>
+							<dl><dd class="banner-thumb">
+								<a href="#"><img src="images/web-6-65-1-32.jpg"/></a>
+							</dd></dl>
+						</li>
+						<li>
+							<dl><dd class="banner-thumb">
+								<a href="#"><img src="images/web-6-65-1-33.jpg"/></a>
+							</dd></dl>
+						</li>
+						<li>
+							<dl><dd class="banner-thumb">
+								<a href="#"><img src="images/web-6-65-1-34.jpg"/></a>
+							</dd></dl>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!--二层楼梯-->
+		<div class="home-standard-layout wrapper style-red">
+			<div class="left-slidebar">
+				<div class="title">
+					<div class="txt-type">
+						<span>2F</span>
+						<h2 title="家居日用管">家居日用馆</h2>
+					</div>
+				</div>
+				<div class="recommend-classes">
+					<ul>
+						<li><a href="#" title="_blank">床上用品</a></li>
+						<li><a href="#" title="_blank">居家布艺</a></li>
+						<li><a href="#" title="_blank">家居饰品</a></li>
+						<li><a href="#" title="_blank">居家礼品</a></li>
+						<li><a href="#" title="_blank">收纳清洁</a></li>
+						<li><a href="#" title="_blank">纸品清洁</a></li>
+					</ul>
+				</div>
+				<div class="left-ads">
+					<a href="#">
+						<img src="images/web-6-63.jpg" alt="" />
+					</a>
+				</div>
+			</div>
+			<div class="middle-layout">
+				<ul class="right-brand">
+					<li><a href="#">更多</a></li>
+				</ul>
+				<ul class="tabs-nav">
+					<li class="tabs-selected"><i class="arrow"></i><h3>商品推荐</h3></li>
+					
+				</ul>
+				<div class="right-side-layout">
+					<ul>
+						<li><a href="#"><img src="images/web-6-68-1.jpg"/></a></li>
+						<li><a href="#"><img src="images/web-6-68-2.jpg"/></a></li>
+						
+						<li><a href="#"><img src="images/web-6-68-3.jpg"/></a></li>
+						<li><a href="#"><img src="images/web-6-68-4.jpg"/></a></li>
+						<li><a href="#"><img src="images/web-6-68-5.png"/></a></li>
+						
+					</ul>
+					<div class="pagination">
+						<span></span>
+						<span></span>
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+					<div class="arrow pre"></div>
+					<div class="arrow next"></div>
+				</div>
+				<div class="tabs-panel middle-banner-list">
+					<ul>
+						<li>
+							<dl><dd class="banner-thumb">
+								<a href="#"><img src="images/web-6-65-1-11.jpg"/></a>
+							</dd></dl>
+						</li>
+						<li>
+							<dl><dd class="banner-thumb">
+								<a href="#"><img src="images/web-6-65-1-12.jpg"/></a>
+							</dd></dl>
+						</li>
+						<li>
+							<dl><dd class="banner-thumb">
+								<a href="#"><img src="images/web-6-65-1-31.jpg"/></a>
+							</dd></dl>
+						</li>
+						<li>
+							<dl><dd class="banner-thumb">
+								<a href="#"><img src="images/web-6-65-1-32.jpg"/></a>
+							</dd></dl>
+						</li>
+						<li>
+							<dl><dd class="banner-thumb">
+								<a href="#"><img src="images/web-6-65-1-33.jpg"/></a>
+							</dd></dl>
+						</li>
+						<li>
+							<dl><dd class="banner-thumb">
+								<a href="#"><img src="images/web-6-65-1-34.jpg"/></a>
+							</dd></dl>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!--三层楼梯-->
+		<div class="home-standard-layout wrapper style-pink">
+			<div class="left-slidebar">
+				<div class="title">
+					<div class="txt-type">
+						<span>3F</span>
+						<h2 title="家居日用管">家居日用馆</h2>
+					</div>
+				</div>
+				<div class="recommend-classes">
+					<ul>
+						<li><a href="#" title="_blank">床上用品</a></li>
+						<li><a href="#" title="_blank">居家布艺</a></li>
+						<li><a href="#" title="_blank">家居饰品</a></li>
+						<li><a href="#" title="_blank">居家礼品</a></li>
+						<li><a href="#" title="_blank">收纳清洁</a></li>
+						<li><a href="#" title="_blank">纸品清洁</a></li>
+					</ul>
+				</div>
+				<div class="left-ads">
+					<a href="#">
+						<img src="images/web-6-63.jpg" alt="" />
+					</a>
+				</div>
+			</div>
+			<div class="middle-layout">
+				<ul class="right-brand">
+					<li><a href="#">更多</a></li>
+				</ul>
+				<ul class="tabs-nav">
+					<li class="tabs-selected"><i class="arrow"></i><h3>商品推荐</h3></li>
+					
+				</ul>
+				<div class="right-side-layout">
+					<ul>
+						<li><a href="#"><img src="images/web-6-68-1.jpg"/></a></li>
+						<li><a href="#"><img src="images/web-6-68-2.jpg"/></a></li>
+						
+						<li><a href="#"><img src="images/web-6-68-3.jpg"/></a></li>
+						<li><a href="#"><img src="images/web-6-68-4.jpg"/></a></li>
+						<li><a href="#"><img src="images/web-6-68-5.png"/></a></li>
+						
+					</ul>
+					<div class="pagination">
+						<span></span>
+						<span></span>
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+					<div class="arrow pre"></div>
+					<div class="arrow next"></div>
+				</div>
+				<div class="tabs-panel middle-banner-list">
+					<ul>
+						<li>
+							<dl><dd class="banner-thumb">
+								<a href="#"><img src="images/web-6-65-1-11.jpg"/></a>
+							</dd></dl>
+						</li>
+						<li>
+							<dl><dd class="banner-thumb">
+								<a href="#"><img src="images/web-6-65-1-12.jpg"/></a>
+							</dd></dl>
+						</li>
+						<li>
+							<dl><dd class="banner-thumb">
+								<a href="#"><img src="images/web-6-65-1-31.jpg"/></a>
+							</dd></dl>
+						</li>
+						<li>
+							<dl><dd class="banner-thumb">
+								<a href="#"><img src="images/web-6-65-1-32.jpg"/></a>
+							</dd></dl>
+						</li>
+						<li>
+							<dl><dd class="banner-thumb">
+								<a href="#"><img src="images/web-6-65-1-33.jpg"/></a>
+							</dd></dl>
+						</li>
+						<li>
+							<dl><dd class="banner-thumb">
+								<a href="#"><img src="images/web-6-65-1-34.jpg"/></a>
+							</dd></dl>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!--四层楼梯-->
+		<div class="home-standard-layout wrapper style-orange">
+			<div class="left-slidebar">
+				<div class="title">
+					<div class="txt-type">
+						<span>4F</span>
+						<h2 title="家居日用管">家居日用馆</h2>
+					</div>
+				</div>
+				<div class="recommend-classes">
+					<ul>
+						<li><a href="#" title="_blank">床上用品</a></li>
+						<li><a href="#" title="_blank">居家布艺</a></li>
+						<li><a href="#" title="_blank">家居饰品</a></li>
+						<li><a href="#" title="_blank">居家礼品</a></li>
+						<li><a href="#" title="_blank">收纳清洁</a></li>
+						<li><a href="#" title="_blank">纸品清洁</a></li>
+					</ul>
+				</div>
+				<div class="left-ads">
+					<a href="#">
+						<img src="images/web-6-63.jpg" alt="" />
+					</a>
+				</div>
+			</div>
+			<div class="middle-layout">
+				<ul class="right-brand">
+					<li><a href="#">更多</a></li>
+				</ul>
+				<ul class="tabs-nav">
+					<li class="tabs-selected"><i class="arrow"></i><h3>商品推荐</h3></li>
+					
+				</ul>
+				<div class="right-side-layout">
+					<ul>
+						<li><a href="#"><img src="images/web-6-68-1.jpg"/></a></li>
+						<li><a href="#"><img src="images/web-6-68-2.jpg"/></a></li>
+						
+						<li><a href="#"><img src="images/web-6-68-3.jpg"/></a></li>
+						<li><a href="#"><img src="images/web-6-68-4.jpg"/></a></li>
+						<li><a href="#"><img src="images/web-6-68-5.png"/></a></li>
+						
+					</ul>
+					<div class="pagination">
+						<span></span>
+						<span></span>
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+					<div class="arrow pre"></div>
+					<div class="arrow next"></div>
+				</div>
+				<div class="tabs-panel middle-banner-list">
+					<ul>
+						<li>
+							<dl><dd class="banner-thumb">
+								<a href="#"><img src="images/web-6-65-1-11.jpg"/></a>
+							</dd></dl>
+						</li>
+						<li>
+							<dl><dd class="banner-thumb">
+								<a href="#"><img src="images/web-6-65-1-12.jpg"/></a>
+							</dd></dl>
+						</li>
+						<li>
+							<dl><dd class="banner-thumb">
+								<a href="#"><img src="images/web-6-65-1-31.jpg"/></a>
+							</dd></dl>
+						</li>
+						<li>
+							<dl><dd class="banner-thumb">
+								<a href="#"><img src="images/web-6-65-1-32.jpg"/></a>
+							</dd></dl>
+						</li>
+						<li>
+							<dl><dd class="banner-thumb">
+								<a href="#"><img src="images/web-6-65-1-33.jpg"/></a>
+							</dd></dl>
+						</li>
+						<li>
+							<dl><dd class="banner-thumb">
+								<a href="#"><img src="images/web-6-65-1-34.jpg"/></a>
+							</dd></dl>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!--五层楼梯-->
+		<div class="home-standard-layout wrapper style-green">
+			<div class="left-slidebar">
+				<div class="title">
+					<div class="txt-type">
+						<span>5F</span>
+						<h2 title="家居日用管">家居日用馆</h2>
+					</div>
+				</div>
+				<div class="recommend-classes">
+					<ul>
+						<li><a href="#" title="_blank">床上用品</a></li>
+						<li><a href="#" title="_blank">居家布艺</a></li>
+						<li><a href="#" title="_blank">家居饰品</a></li>
+						<li><a href="#" title="_blank">居家礼品</a></li>
+						<li><a href="#" title="_blank">收纳清洁</a></li>
+						<li><a href="#" title="_blank">纸品清洁</a></li>
+					</ul>
+				</div>
+				<div class="left-ads">
+					<a href="#">
+						<img src="images/web-6-63.jpg" alt="" />
+					</a>
+				</div>
+			</div>
+			<div class="middle-layout">
+				<ul class="right-brand">
+					<li><a href="#">更多</a></li>
+				</ul>
+				<ul class="tabs-nav">
+					<li class="tabs-selected"><i class="arrow"></i><h3>商品推荐</h3></li>
+					
+				</ul>
+				<div class="right-side-layout">
+					<ul>
+						<li><a href="#"><img src="images/web-6-68-1.jpg"/></a></li>
+						<li><a href="#"><img src="images/web-6-68-2.jpg"/></a></li>
+						
+						<li><a href="#"><img src="images/web-6-68-3.jpg"/></a></li>
+						<li><a href="#"><img src="images/web-6-68-4.jpg"/></a></li>
+						<li><a href="#"><img src="images/web-6-68-5.png"/></a></li>
+						
+					</ul>
+					<div class="pagination">
+						<span></span>
+						<span></span>
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+					<div class="arrow pre"></div>
+					<div class="arrow next"></div>
+				</div>
+				<div class="tabs-panel middle-banner-list">
+					<ul>
+						<li>
+							<dl><dd class="banner-thumb">
+								<a href="#"><img src="images/web-6-65-1-11.jpg"/></a>
+							</dd></dl>
+						</li>
+						<li>
+							<dl><dd class="banner-thumb">
+								<a href="#"><img src="images/web-6-65-1-12.jpg"/></a>
+							</dd></dl>
+						</li>
+						<li>
+							<dl><dd class="banner-thumb">
+								<a href="#"><img src="images/web-6-65-1-31.jpg"/></a>
+							</dd></dl>
+						</li>
+						<li>
+							<dl><dd class="banner-thumb">
+								<a href="#"><img src="images/web-6-65-1-32.jpg"/></a>
+							</dd></dl>
+						</li>
+						<li>
+							<dl><dd class="banner-thumb">
+								<a href="#"><img src="images/web-6-65-1-33.jpg"/></a>
+							</dd></dl>
+						</li>
+						<li>
+							<dl><dd class="banner-thumb">
+								<a href="#"><img src="images/web-6-65-1-34.jpg"/></a>
+							</dd></dl>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!--六层楼梯-->
+		<div class="home-standard-layout wrapper style-blue">
+			<div class="left-slidebar">
+				<div class="title">
+					<div class="txt-type">
+						<span>6F</span>
+						<h2 title="家居日用管">家居日用馆</h2>
+					</div>
+				</div>
+				<div class="recommend-classes">
+					<ul>
+						<li><a href="#" title="_blank">床上用品</a></li>
+						<li><a href="#" title="_blank">居家布艺</a></li>
+						<li><a href="#" title="_blank">家居饰品</a></li>
+						<li><a href="#" title="_blank">居家礼品</a></li>
+						<li><a href="#" title="_blank">收纳清洁</a></li>
+						<li><a href="#" title="_blank">纸品清洁</a></li>
+					</ul>
+				</div>
+				<div class="left-ads">
+					<a href="#">
+						<img src="images/web-6-63.jpg" alt="" />
+					</a>
+				</div>
+			</div>
+			<div class="middle-layout">
+				<ul class="right-brand">
+					<li><a href="#">更多</a></li>
+				</ul>
+				<ul class="tabs-nav">
+					<li class="tabs-selected"><i class="arrow"></i><h3>商品推荐</h3></li>
+					
+				</ul>
+				<div class="right-side-layout">
+					<ul>
+						<li><a href="#"><img src="images/web-6-68-1.jpg"/></a></li>
+						<li><a href="#"><img src="images/web-6-68-2.jpg"/></a></li>
+						
+						<li><a href="#"><img src="images/web-6-68-3.jpg"/></a></li>
+						<li><a href="#"><img src="images/web-6-68-4.jpg"/></a></li>
+						<li><a href="#"><img src="images/web-6-68-5.png"/></a></li>
+						
+					</ul>
+					<div class="pagination">
+						<span></span>
+						<span></span>
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+					<div class="arrow pre"></div>
+					<div class="arrow next"></div>
+				</div>
+				<div class="tabs-panel middle-banner-list">
+					<ul>
+						<li>
+							<dl><dd class="banner-thumb">
+								<a href="#"><img src="images/web-6-65-1-11.jpg"/></a>
+							</dd></dl>
+						</li>
+						<li>
+							<dl><dd class="banner-thumb">
+								<a href="#"><img src="images/web-6-65-1-12.jpg"/></a>
+							</dd></dl>
+						</li>
+						<li>
+							<dl><dd class="banner-thumb">
+								<a href="#"><img src="images/web-6-65-1-31.jpg"/></a>
+							</dd></dl>
+						</li>
+						<li>
+							<dl><dd class="banner-thumb">
+								<a href="#"><img src="images/web-6-65-1-32.jpg"/></a>
+							</dd></dl>
+						</li>
+						<li>
+							<dl><dd class="banner-thumb">
+								<a href="#"><img src="images/web-6-65-1-33.jpg"/></a>
+							</dd></dl>
+						</li>
+						<li>
+							<dl><dd class="banner-thumb">
+								<a href="#"><img src="images/web-6-65-1-34.jpg"/></a>
+							</dd></dl>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!--七层楼梯-->
+		<div class="home-standard-layout wrapper style-purple">
+			<div class="left-slidebar">
+				<div class="title">
+					<div class="txt-type">
+						<span>7F</span>
+						<h2 title="家居日用管">家居日用馆</h2>
+					</div>
+				</div>
+				<div class="recommend-classes">
+					<ul>
+						<li><a href="#" title="_blank">床上用品</a></li>
+						<li><a href="#" title="_blank">居家布艺</a></li>
+						<li><a href="#" title="_blank">家居饰品</a></li>
+						<li><a href="#" title="_blank">居家礼品</a></li>
+						<li><a href="#" title="_blank">收纳清洁</a></li>
+						<li><a href="#" title="_blank">纸品清洁</a></li>
+					</ul>
+				</div>
+				<div class="left-ads">
+					<a href="#">
+						<img src="images/web-6-63.jpg" alt="" />
+					</a>
+				</div>
+			</div>
+			<div class="middle-layout">
+				<ul class="right-brand">
+					<li><a href="#">更多</a></li>
+				</ul>
+				<ul class="tabs-nav">
+					<li class="tabs-selected"><i class="arrow"></i><h3>商品推荐</h3></li>
+					
+				</ul>
+				<div class="right-side-layout">
+					<ul>
+						<li><a href="#"><img src="images/web-6-68-1.jpg"/></a></li>
+						<li><a href="#"><img src="images/web-6-68-2.jpg"/></a></li>
+						
+						<li><a href="#"><img src="images/web-6-68-3.jpg"/></a></li>
+						<li><a href="#"><img src="images/web-6-68-4.jpg"/></a></li>
+						<li><a href="#"><img src="images/web-6-68-5.png"/></a></li>
+						
+					</ul>
+					<div class="pagination">
+						<span></span>
+						<span></span>
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+					<div class="arrow pre"></div>
+					<div class="arrow next"></div>
+				</div>
+				<div class="tabs-panel middle-banner-list">
+					<ul>
+						<li>
+							<dl><dd class="banner-thumb">
+								<a href="#"><img src="images/web-6-65-1-11.jpg"/></a>
+							</dd></dl>
+						</li>
+						<li>
+							<dl><dd class="banner-thumb">
+								<a href="#"><img src="images/web-6-65-1-12.jpg"/></a>
+							</dd></dl>
+						</li>
+						<li>
+							<dl><dd class="banner-thumb">
+								<a href="#"><img src="images/web-6-65-1-31.jpg"/></a>
+							</dd></dl>
+						</li>
+						<li>
+							<dl><dd class="banner-thumb">
+								<a href="#"><img src="images/web-6-65-1-32.jpg"/></a>
+							</dd></dl>
+						</li>
+						<li>
+							<dl><dd class="banner-thumb">
+								<a href="#"><img src="images/web-6-65-1-33.jpg"/></a>
+							</dd></dl>
+						</li>
+						<li>
+							<dl><dd class="banner-thumb">
+								<a href="#"><img src="images/web-6-65-1-34.jpg"/></a>
+							</dd></dl>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="home-standard-layout wrapper style-brown">
+			<div class="left-slidebar">
+				<div class="title">
+					<div class="txt-type">
+						<span>8F</span>
+						<h2 title="家居日用管">家居日用馆</h2>
+					</div>
+				</div>
+				<div class="recommend-classes">
+					<ul>
+						<li><a href="#" title="_blank">床上用品</a></li>
+						<li><a href="#" title="_blank">居家布艺</a></li>
+						<li><a href="#" title="_blank">家居饰品</a></li>
+						<li><a href="#" title="_blank">居家礼品</a></li>
+						<li><a href="#" title="_blank">收纳清洁</a></li>
+						<li><a href="#" title="_blank">纸品清洁</a></li>
+					</ul>
+				</div>
+				<div class="left-ads">
+					<a href="#">
+						<img src="images/web-6-63.jpg" alt="" />
+					</a>
+				</div>
+			</div>
+			<div class="middle-layout">
+				<ul class="right-brand">
+					<li><a href="#">更多</a></li>
+				</ul>
+				<ul class="tabs-nav">
+					<li class="tabs-selected"><i class="arrow"></i><h3>商品推荐</h3></li>
+					
+				</ul>
+				<div class="right-side-layout">
+					<ul>
+						<li><a href="#"><img src="images/web-6-68-1.jpg"/></a></li>
+						<li><a href="#"><img src="images/web-6-68-2.jpg"/></a></li>
+						
+						<li><a href="#"><img src="images/web-6-68-3.jpg"/></a></li>
+						<li><a href="#"><img src="images/web-6-68-4.jpg"/></a></li>
+						<li><a href="#"><img src="images/web-6-68-5.png"/></a></li>
+						
+					</ul>
+					<div class="pagination">
+						<span></span>
+						<span></span>
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+					<div class="arrow pre"></div>
+					<div class="arrow next"></div>
+				</div>
+				<!--右边6小块-->
+				<div class="tabs-panel middle-banner-list">
+					<ul>
+						<li>
+							<dl><dd class="banner-thumb">
+								<a href="#"><img src="images/web-6-65-1-11.jpg"/></a>
+							</dd></dl>
+						</li>
+						<li>
+							<dl><dd class="banner-thumb">
+								<a href="#"><img src="images/web-6-65-1-12.jpg"/></a>
+							</dd></dl>
+						</li>
+						<li>
+							<dl><dd class="banner-thumb">
+								<a href="#"><img src="images/web-6-65-1-31.jpg"/></a>
+							</dd></dl>
+						</li>
+						<li>
+							<dl><dd class="banner-thumb">
+								<a href="#"><img src="images/web-6-65-1-32.jpg"/></a>
+							</dd></dl>
+						</li>
+						<li>
+							<dl><dd class="banner-thumb">
+								<a href="#"><img src="images/web-6-65-1-33.jpg"/></a>
+							</dd></dl>
+						</li>
+						<li>
+							<dl><dd class="banner-thumb">
+								<a href="#"><img src="images/web-6-65-1-34.jpg"/></a>
+							</dd></dl>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!--九层楼梯-->
+		<div class="home-standard-layout wrapper style-default">
+			<div class="left-slidebar">
+				<div class="title">
+					<div class="txt-type">
+						<span>9F</span>
+						<h2 title="家居日用管">家居日用馆</h2>
+					</div>
+				</div>
+				<div class="recommend-classes">
+					<ul>
+						<li><a href="#" title="_blank">床上用品</a></li>
+						<li><a href="#" title="_blank">居家布艺</a></li>
+						<li><a href="#" title="_blank">家居饰品</a></li>
+						<li><a href="#" title="_blank">居家礼品</a></li>
+						<li><a href="#" title="_blank">收纳清洁</a></li>
+						<li><a href="#" title="_blank">纸品清洁</a></li>
+					</ul>
+				</div>
+				<div class="left-ads">
+					<a href="#">
+						<img src="images/web-6-63.jpg" alt="" />
+					</a>
+				</div>
+			</div>
+			<div class="middle-layout">
+				<ul class="right-brand">
+					<li><a href="#">更多</a></li>
+				</ul>
+				<ul class="tabs-nav">
+					<li class="tabs-selected"><i class="arrow"></i><h3>商品推荐</h3></li>
+					
+				</ul>
+				<div class="right-side-layout">
+					<ul>
+						<li><a href="#"><img src="images/web-6-68-1.jpg"/></a></li>
+						<li><a href="#"><img src="images/web-6-68-2.jpg"/></a></li>
+						
+						<li><a href="#"><img src="images/web-6-68-3.jpg"/></a></li>
+						<li><a href="#"><img src="images/web-6-68-4.jpg"/></a></li>
+						<li><a href="#"><img src="images/web-6-68-5.png"/></a></li>
+						
+					</ul>
+					<div class="pagination">
+						<span></span>
+						<span></span>
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+					<div class="arrow pre"></div>
+					<div class="arrow next"></div>
+				</div>
+				<div class="tabs-panel middle-banner-list">
+					<ul>
+						<li>
+							<dl><dd class="banner-thumb">
+								<a href="#"><img src="images/web-6-65-1-11.jpg"/></a>
+							</dd></dl>
+						</li>
+						<li>
+							<dl><dd class="banner-thumb">
+								<a href="#"><img src="images/web-6-65-1-12.jpg"/></a>
+							</dd></dl>
+						</li>
+						<li>
+							<dl><dd class="banner-thumb">
+								<a href="#"><img src="images/web-6-65-1-31.jpg"/></a>
+							</dd></dl>
+						</li>
+						<li>
+							<dl><dd class="banner-thumb">
+								<a href="#"><img src="images/web-6-65-1-32.jpg"/></a>
+							</dd></dl>
+						</li>
+						<li>
+							<dl><dd class="banner-thumb">
+								<a href="#"><img src="images/web-6-65-1-33.jpg"/></a>
+							</dd></dl>
+						</li>
+						<li>
+							<dl><dd class="banner-thumb">
+								<a href="#"><img src="images/web-6-65-1-34.jpg"/></a>
+							</dd></dl>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+<!--		九层楼梯结束-->
+<!--更多商品-->
+		<div class="home-floor-banner">
+			<a href="#" title="淘库为你优选">
+				<img src="images/web-9-153.jpg" alt="" />
+			</a>
+		</div>
+		<div class="sale-layout wrapper">
+			<div class="home-sale-con tabs-panel ">
+				<ul class="clearfix">
+				</ul>
+			</div>
+		</div>
+			
+		
+		<div class="fooder-line"></div>
+		<!--首页保障底部开始-->
+		<div id="after-sale">
+			<div class="after-sale-con">
+				<div class="guarantee">
+					<ul class="guarantee-con clearfix">
+						<li class="guarantee-con-item"><a href=""><img src="images/4c3c59f1958a63026420.png" alt="" width="297px" height="80px"/></a></li>
+						<li class="guarantee-con-item"><a href=""><img src="images/a063fbbdc568bb475340.png" alt="" width="297px" height="80px"/></a></li>
+						<li class="guarantee-con-item"><a href=""><img src="images/ca16580d0e44684c9860.jpg" alt="" width="297px" height="80px"/></a></li>
+						<li class="guarantee-con-item"><a href=""><img src="images/ce65cec4375571512400.png" alt="" width="297px" height="80px"/></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!--首页底部保障结束-->
+		<!--首页底部注册备案信息-->
+	<div id="footer">
+		<p>
+			<a target="_blank" href="#">首页</a>
+			|
+			<a target="_blank" href="#">关于我们</a>
+			|
+			<a target="_blank" href="#">商城公告</a>
+			|
+			<a target="_blank" href="#">客服中心</a>
+			|
+			<a target="_blank" href="#">帮助中心</a>
+			|
+			<a target="_blank" href="#">售后服务</a>
+			|
+			<a target="_blank" href="#">支付方式</a>
+			|
+			<a target="_blank" href="#">友情链接</a>
+			|
+		<a target="_blank" href="#">物流加盟</a>
+			|
+			<a target="_blank" href="#">招商入驻</a>
+			|
+			<a target="_blank" href="#">技术支持</a>
+		</p>
+		Copyright &copy; 2012 - 2017 Taokubuy.com | 淘库商城股份有限公司 保留版权及所有权利<br />
+闽公网安备 35020302028562号 | 闽ICP备17020735号
+
+
+<!--楼层-->
+<div class="nav_box">
+	<ul>
+		<li class="nav_h_1"><a href="javascript:;" class="num">1F</a>
+			<a href="javascript:;" class="word">家具</a>
+		</li>
+		<li class="nav_h_2"><a href="javascript:;" class="num">2F</a>
+			<a href="javascript:;" class="word">家具</a>
+		</li>
+		<li class="nav_h_3"><a href="javascript:;" class="num">3F</a>
+			<a href="javascript:;" class="word">家具</a>
+		</li>
+		<li class="nav_h_4"><a href="javascript:;" class="num">4F</a>
+			<a href="javascript:;" class="word">家具</a>
+		</li>
+		<li class="nav_h_5"><a href="javascript:;" class="num">5F</a>
+			<a href="javascript:;" class="word">家具</a>
+		</li>
+		<li class="nav_h_6"><a href="javascript:;" class="num">6F</a>
+			<a href="javascript:;" class="word">家具</a>
+		</li>
+		<li class="nav_h_7"><a href="javascript:;" class="num">7F</a>
+			<a href="javascript:;" class="word">家具</a>
+		</li>
+		<li class="nav_h_8"><a href="javascript:;" class="num">8F</a>
+			<a href="javascript:;" class="word">家具</a>
+		</li>
+		<li class="nav_h_9"><a href="javascript:;" class="num">9F</a>
+			<a href="javascript:;" class="word">家具</a>
+		</li>
+		<li class="nav_top last"><a href="javascript:;" >Top</a>
+		</li>
+	</ul>
+</div>
+	</div>
+	
+	</body>
+</html>
+		<script type="text/javascript">
+	
+		var oDiv = document.getElementById("box");
+		var oTxt = document.getElementById("keyword");
+		
+		//1.准备回调函数
+		function fn(data){
+			//console.log(data);
+			let arr = data.s;
+			let oUl = document.createElement('ul');
+			for(let i = 0,len = arr.length;i < len;i++){
+				let li = document.createElement("li");
+				li.innerHTML = arr[i];
+				//在哪里创建在哪里获取
+				li.onmouseover = function(){
+					li.style.backgroundColor = "#F0F0F0";
+				}
+				li.onmouseout = function(){
+					li.style.background = "";
+				}
+				li.onclick = function(){
+					oTxt.value = li.innerHTML;
+					oDiv.style.display = 'none';
+				}
+				oUl.appendChild(li);
+			}
+			oDiv.appendChild(oUl);
+		}
+		oTxt.onkeyup = function(){
+			oDiv.style.display = "block";
+			oDiv.innerHTML = "";
+			let str = oTxt.value;
+			let sc = document.createElement("script");
+			sc.src = "https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=" + str + "&cb=fn";
+			document.getElementsByTagName("head")[0].appendChild(sc);
+		}
+		//点击文档
+		document.body.onclick = function(){
+			oDiv.style.display = "none";
+		}
+</script>

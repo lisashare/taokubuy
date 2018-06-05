@@ -1,0 +1,297 @@
+@charset "UTF-8";
+/*重置样式*/
+html, body, ul, ol, li, dl, dt, dd, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, figure,
+img, input {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: "微软雅黑"; }
+
+ul, ol, li {
+  list-style: none; }
+
+a, u {
+  text-decoration: none; }
+
+i, em {
+  font-style: normal; }
+
+b, strong {
+  font-weight: 100; }
+
+img {
+  border: 0;
+  display: block; }
+
+input {
+  outline: none; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 16px;
+  font-weight: 100; }
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  overflow: hidden;
+  clear: both;
+  height: 0;
+  visibility: hidden; }
+
+/*重置样式结束*/
+.wrapper {
+  width: 1200px;
+  margin: 0 auto; }
+
+#footer {
+  width: 100%;
+  margin: 0 auto;
+  padding-bottom: 10px;
+  background: #f5f5f5;
+  font-size: 12px !important;
+  border-top: 1px solid #e7e7e7;
+  text-align: center;
+  color: #666; }
+  #footer p {
+    word-spacing: 5px;
+    padding: 10px 0; }
+    #footer p a {
+      color: #666; }
+
+.header-wrap {
+  width: 99%;
+  height: 80px;
+  border-bottom: 2px solid #F5F5F5;
+  margin: 5px auto 0 auto; }
+  .header-wrap .wrapper {
+    width: 1000px;
+    margin: auto; }
+  .header-wrap .public-head-layout {
+    height: 80px; }
+    .header-wrap .public-head-layout .site-logo {
+      width: 240px;
+      height: 60px;
+      float: left;
+      margin: 15px 10px auto 0; }
+      .header-wrap .public-head-layout .site-logo img {
+        width: 240px;
+        height: 60px; }
+
+.nc-login-now {
+  height: 24px;
+  line-height: 24px;
+  font-size: 14px;
+  color: #aaa;
+  float: right;
+  margin-top: 50px; }
+  .nc-login-now a {
+    color: #06c;
+    margin-left: 4px;
+    font-weight: 600; }
+
+.nc-register-bg {
+  width: 100%;
+  height: 680px;
+  background: #FAFAFA url(../images/register/register_bg.png) repeat 50% 50%;
+  overflow: hidden; }
+
+.nc-register-box {
+  width: 860px;
+  height: 560px;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.15);
+  margin: 60px auto; }
+
+.nc-register-layout {
+  width: 820px;
+  height: 520px;
+  border: 1px solid #ccc;
+  padding: 19px;
+  background: #fff; }
+  .nc-register-layout .left {
+    width: 600px;
+    height: 520px;
+    float: left; }
+    .nc-register-layout .left .nc-register-mode {
+      width: 580px; }
+  .nc-register-layout .tabs-nav {
+    border-bottom: 1px solid #e6e6e6; }
+    .nc-register-layout .tabs-nav li {
+      width: 287px;
+      height: 40px;
+      margin-bottom: 1px;
+      text-align: center;
+      display: inline-block;
+      margin-bottom: -1px; }
+      .nc-register-layout .tabs-nav li a.tab_active {
+        color: #c81623;
+        display: block;
+        border-bottom: 3px solid #C81623; }
+      .nc-register-layout .tabs-nav li a {
+        display: block;
+        height: 40px;
+        font-size: 18px;
+        color: #999;
+        line-height: 24px;
+        position: relative;
+        z-index: 1; }
+      .nc-register-layout .tabs-nav li a:hover {
+        color: #000; }
+      .nc-register-layout .tabs-nav li a.tabulous_active {
+        color: #C81623;
+        display: block;
+        border-bottom: 3px solid #C81623; }
+        .nc-register-layout .tabs-nav li a.tabulous_active i {
+          border-color: #C81623 transparent transparent transparent;
+          border-style: solid dashed dashed dashed;
+          border-width: 7px;
+          display: none;
+          width: 0;
+          height: 0;
+          margin-left: -4px;
+          position: absolute;
+          z-index: 1;
+          left: 50%;
+          bottom: -17px; }
+  .nc-register-layout .right {
+    width: 200px;
+    height: 500px;
+    float: right;
+    padding: 20px 0 0 19px;
+    border-left: 1px solid #E6E6E6; }
+    .nc-register-layout .right .api-login {
+      padding-bottom: 20px;
+      margin-bottom: 20px;
+      border-bottom: 1px dashed #E6e6e6; }
+      .nc-register-layout .right .api-login h4 {
+        font-size: 14px;
+        line-height: 20px;
+        margin-bottom: 20px;
+        color: #333; }
+
+#tabs_container {
+  width: 383px;
+  position: relative;
+  z-index: 1; }
+
+.tabs_containe {
+  position: absolute;
+  top: 0;
+  padding: 50px 80px 0 100px; }
+  .tabs_containe .nc-login-form dl {
+    background: #fff;
+    width: 398px;
+    height: 52px;
+    margin-top: -1px;
+    border: 1px solid #E6E6E6;
+    position: relative;
+    z-index: 1; }
+    .tabs_containe .nc-login-form dl dt {
+      font-size: 14px;
+      line-height: 20px;
+      color: #666;
+      width: 72px;
+      padding: 16px 0 16px 20px;
+      float: left; }
+    .tabs_containe .nc-login-form dl dd {
+      height: 28px;
+      float: left;
+      padding: 12px 0; }
+      .tabs_containe .nc-login-form dl dd input.text {
+        font-size: 14px;
+        line-height: 28px;
+        width: 290px;
+        height: 28px;
+        padding: 0;
+        border: none 0; }
+  .tabs_containe label.error {
+    color: #000;
+    line-height: 24px;
+    background: #FFF5D9 no-repeat 0 0;
+    text-align: left;
+    white-space: nowrap;
+    height: 24px;
+    padding: 8px 12px 8px 24px;
+    position: absolute;
+    z-index: 4;
+    top: 5px;
+    left: 300px;
+    display: none; }
+  .tabs_containe .nc-login-form .clause-div {
+    font-size: 14px;
+    color: #666;
+    line-height: 30px;
+    width: 400px;
+    height: 30px;
+    margin-top: 15px;
+    border: none 0; }
+    .tabs_containe .nc-login-form .clause-div dd {
+      padding: 0;
+      height: auto; }
+      .tabs_containe .nc-login-form .clause-div dd .checkbox {
+        vertical-align: middle;
+        margin-right: 8px; }
+      .tabs_containe .nc-login-form .clause-div dd a {
+        color: #000000; }
+      .tabs_containe .nc-login-form .clause-div dd a:hover {
+        color: #D91E17;
+        text-decoration: underline; }
+
+/*.nc-login-form label.error i {
+    font-size: 24px;
+    margin-right: 12px;
+    color: #FF875A;
+    vertical-align: middle;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    display: inline;
+    width: auto;
+    height: auto;
+    line-height: normal;
+    vertical-align: baseline;
+    background-image: none;
+    background-position: 0% 0%;
+    background-repeat: repeat;
+    margin-top: 0;
+}
+[class^="icon-"], [class*=" icon-"] {
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: inherit;
+    -webkit-font-smoothing: antialiased;
+}
+.nc-login-form dl.error {
+    border-color: #C81623 !important;
+    z-index: 2;
+}
+.code-div label.error{
+    background:transparent none;
+    min-width:auto;
+    padding: 0;
+    top: 15px;
+    right: 0;
+    left: auto;
+}
+* */
+.submit-div {
+  margin-top: 15px; }
+  .submit-div .submit {
+    font-family: "microsoft yahei";
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFF;
+    background-color: #C81623;
+    width: 398px;
+    height: 42px;
+    border: solid 1px #D91E17;
+    border-radius: 3px;
+    cursor: pointer; }
+
+.transition {
+  transition: all .3s ease-in-out;
+  transition-delay: .3s; }
+
+/*# sourceMappingURL=register.css.map */
